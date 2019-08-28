@@ -1,0 +1,324 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://localhost:8888/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Rosemary Yardley
+Author URI:   http://rosemaryyardley.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+
+
+/* BODY STYLES */
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+	 background: #45ac9d;
+}
+
+.blog-post {
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;
+}
+
+.blog-post h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+  font-size: 1.5em;
+}
+
+.read-more-link {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+/* Homepage - Featured Work Styles */
+.featured-work .site-content h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.homepage-featured-work {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.individual-featured-work {
+  list-style: none;
+}
+
+.individual-featured-work h3 {
+  text-align: center;
+  font-weight: 400;
+  margin: 20px 0 50px 0;
+}
+
+/* About Page Styles */
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.about-page p {
+  color: #fff;
+  padding: 25px 350px 80px 350px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+#services-intro {
+  margin: 5% 30%;
+}
+
+#services-intro h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#services-intro p {
+  text-align: center;
+  font-size: 16.5px;
+}
+
+
+.work-with-us {
+	border-top: 1px solid #bfbfbf;
+	padding: 2em 0 0 0;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#contact-reference {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+#contact-reference h3 {
+  width: 35%;
+  margin: 0;
+}
+
+#contact-reference .button {
+  width: 25%;
+  height: 33%;
+}
+
+
+
+/* Case Study Single Page Styles */
+
+.case-study {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.case-study-sidebar {
+  width: 30%;
+  margin: 75px 0;
+}
+
+.case-study-images {
+  width: 50%;
+  height: auto;
+  margin: 75px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.case-study-images img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.case-study-sidebar h2 {
+  font: 600 25px/35px 'Open Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+.case-study-sidebar h4 {
+  font: 400 14px/26px 'Open Sans', sans-serif;
+  color: #878787;
+  margin: 0;
+}
+
+.case-study-sidebar h5 {
+  font: 400 14px/26px 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.case-study-sidebar p {
+  margin-top: 30px;
+}
+
+/* Case Studies Page Styles (Archive) */
+.case-studies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 75px 0;
+}
+
+.case-studies-sidebar {
+  width: 30%;
+}
+
+.case-studies-images {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.case-studies-images img {
+  width: 100%;
+  height: auto;
+}
+
+.case-studies-sidebar h2 {
+  font: 600 25px/35px 'Open Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+.case-studies-sidebar h4 {
+  font: 400 14px/26px 'Open Sans', sans-serif;
+  color: #878787;
+  margin: 0;
+}
+
+.case-studies-sidebar h5 {
+  font: 400 14px/26px 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.case-studies-sidebar p {
+  margin-top: 30px;
+}
+
+.case-studies-sidebar p strong {
+  text-transform: uppercase;
+  color: #45ac9d;
+}
+
+/* Social Media Icons */
+#menu-social-media-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+#menu-social-media-nav li {
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#menu-social-media-nav i {
+  color: #fff;
+}
+
+/* Contact Form Styles */
+
+
+/*
+
+.contact #primary {
+  width: 630px;
+}
+
+
+
+.contact #primary h2, p {
+  width: inherit;
+  margin: 17px 0;
+  text-align: left;
+}
+
+/*
+
+.main-content h2 {
+  font-size: 25px;
+}
+
+.main-content p {
+  font-size: 16.5px;
+}
+
+*/
+
+.nf-form-fields-required, .ninja-forms-req-symbol {
+  display: none;
+}
+
+nf-fields-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  width: 630px;
+}
+
+#nf-field-1-container {
+  width: 300px;
+  margin-right: 30px;
+}
+
+#nf-field-2-container {
+  width: 300px;
+}
+
+#nf-field-3-container {
+  width: 630px;
+}
+
+#nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+  font-size: 14px;
+}
+
+#nf-field-4-container {
+  display: flex;
+  width: 630px;
+  justify-content: flex-end;
+}
+
+#nf-field-4 {
+  background-color: #45ac9d;
+  width: 200px;
+}
